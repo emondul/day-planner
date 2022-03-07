@@ -1,5 +1,5 @@
 $(document).ready(function () {
-$('#currentDay').text(moment().format('dddd, MMMMM Do'));
+$('#currentDay').text(moment().format('dddd, MMMM Do YYYY'));
 
     // need to the button click to save an entry 
 $('.saveBtn').on('click', function() {
